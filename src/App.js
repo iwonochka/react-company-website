@@ -1,6 +1,6 @@
 import React from 'react'
 import { Blog, Career, Company, Footer, Header, Innovations } from './containers'
-import { Article, Brand, CTA, Feature, Navbar } from './components'
+import { Article, CTA, Feature, Navbar } from './components'
 
 const App = () => {
   return (
@@ -9,14 +9,12 @@ const App = () => {
         <Navbar/>
         <Header/>
       </div>
-      <Brand/>
       <Company/>
       <Innovations/>
       <Career/>
       <CTA/>
       <Blog/>
       <Footer/>
-      <Brand/>
     </div>
   )
 }
