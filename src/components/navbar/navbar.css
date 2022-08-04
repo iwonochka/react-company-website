@@ -1,0 +1,130 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+}
+
+.navbar-links {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navbar-links_logo {
+  margin-right: 2rem;
+}
+
+.navbar-links_logo img {
+  transform: scale(0.6);
+}
+
+.navbar-links_container {
+  display: flex;
+}
+
+.navbar-sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar p {
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.navbar button {
+  padding: 0.5rem 1rem;
+  color: var(--color-text);
+  background: var(--color-primary);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 5px;
+  transition: all .14s ease-out;
+  cursor: pointer;
+  border: var(--color-text) solid;
+  outline: none;
+}
+
+.navbar-menu {
+  margin-left: 1rem;
+  position: relative;
+  display: none;
+}
+
+.navbar-menu:first-child {
+  color: var(--color-text);
+  height: 27px;
+  width: 27px;
+}
+
+.navbar-menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  background: var(--color-primary);
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0,0,0,0.2);
+}
+
+.navbar-menu_container p {
+  margin: 1rem 0;
+}
+
+.navbar-menu_container-links-sign {
+  display: none;
+}
+
+/* ===MEDIA QUERIES=== */
+
+@media screen and (max-width: 1050px) {
+  .navbar-links_container {
+      display: none;
+  }
+
+  .navbar-menu {
+      display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+      padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .navbar {
+      padding: 2rem;
+  }
+
+  .navbar-sign {
+      display: none;
+  }
+
+  .navbar-menu_container {
+      top: 20px;
+  }
+
+  .navbar-menu_container-links-sign {
+      display: block;
+  }
+}
