@@ -6,7 +6,7 @@ const Company = () => {
   return (
     <div className='company section__margin' id='company'>
       <div className='company-feature'>
-        <Feature title="Company" text="As a Managed Security Services Provider (MSSP), we offer on-demand expertise combined with the nonstop threat detection and response required to block attacks before they damage your business. Optimize efficiency while minimizing cost, gaining the backing you need when you need us the most."/>
+        <Feature title="Company" text="As a Managed Security Services Provider (MSSP), we offer on-demand expertise combined with the nonstop threat detection and response required to block attacks before they damage your business."/>
       </div>
       <div className='company-header'>
         <h1 className='gradient__text'>Technology that brings us forward</h1>
