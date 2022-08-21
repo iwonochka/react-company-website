@@ -14,7 +14,7 @@ const Blog = () => {
           <Article imgUrl={blog01} date="Sep 22, 2022" title="Half a million new pieces of malware daily" />
         </div>
         <div className='blog-container_groupB'>
-          <Article imgUrl={blog02} date="Sep 22, 2022" title="IT Security Act 2.0" />
+          <Article id='article-02' imgUrl={blog02} date="Sep 22, 2022" title="IT Security Act 2.0 - overview" />
           <Article imgUrl={blog03} date="Sep 22, 2022" title="Docker container security best practices"/>
           <Article imgUrl={blog04} date="Sep 22, 2022" title="Why does SSE matter now?" />
           <Article imgUrl={blog05} date="Sep 22, 2022" title="Fixing security vulnerabilities" />
