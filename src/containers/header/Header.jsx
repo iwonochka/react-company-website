@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import rocket from '../../assets/rocket.png'
+import img1 from '../../assets/image1.png'
 
 const Header = () => {
   return (
@@ -15,7 +15,7 @@ const Header = () => {
         </div>
       </div>
       <div className='header-image'>
-        <img src={rocket} alt="rocket" />
+        <img src={img1} alt="rocket" />
       </div>
     </div>
   )
