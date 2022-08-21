@@ -41,7 +41,7 @@
   cursor: pointer;
 }
 
-.navbar button {
+.border-button {
   padding: 0.5rem 1rem;
   color: var(--color-text);
   background: var(--color-primary);
@@ -102,6 +102,7 @@
 
   .navbar-menu {
       display: flex;
+      color: var(--color-text);
   }
 }
 

@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
         <div className='navbar-links_container'>
           <p><a href="#home">Home</a></p>
-          <p><a href="#about">About</a></p>
+          <p><a href="#company">About</a></p>
           <p><a href="#innovations">Innovations</a></p>
           <p><a href="#careers">Careers</a></p>
           <p><a href="#blog">Blog</a></p>
@@ -22,7 +22,7 @@ const Navbar = () => {
       </div>
       <div className='navbar-sign'>
         <p>Sign in</p>
-        <button type='button'>Sign up</button>
+        <button className='border-button' type='button'>Sign up</button>
       </div>
       <div className='navbar-menu'>
         {toggleMenu
@@ -33,13 +33,13 @@ const Navbar = () => {
           <div className='navbar-menu_container scale-up-center'>
             <div className='navbar-menu_container-links'>
               <p><a href="#home">Home</a></p>
-              <p><a href="#about">About</a></p>
+              <p><a href="#company">About</a></p>
               <p><a href="#innovations">Innovations</a></p>
               <p><a href="#careers">Careers</a></p>
               <p><a href="#blog">Blog</a></p>
               <div className='navbar-menu_container-links-sign'>
                 <p>Sign in</p>
-                <button type='button'>Sign up</button>
+                <button className='border-button' type='button'>Sign up</button>
               </div>
             </div>
           </div>
