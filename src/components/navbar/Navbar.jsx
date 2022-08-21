@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
         <div className='navbar-links_container'>
           <p><a href="#home">Home</a></p>
-          <p><a href="#about">About</a></p>
+          <p><a href="#company">About</a></p>
           <p><a href="#innovations">Innovations</a></p>
           <p><a href="#careers">Careers</a></p>
           <p><a href="#blog">Blog</a></p>
@@ -33,7 +33,7 @@ const Navbar = () => {
           <div className='navbar-menu_container scale-up-center'>
             <div className='navbar-menu_container-links'>
               <p><a href="#home">Home</a></p>
-              <p><a href="#about">About</a></p>
+              <p><a href="#company">About</a></p>
               <p><a href="#innovations">Innovations</a></p>
               <p><a href="#careers">Careers</a></p>
               <p><a href="#blog">Blog</a></p>
