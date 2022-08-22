@@ -22,7 +22,7 @@ const Innovations = () => {
     <div className='innovations section__padding' id="innovations">
       <div className='innovations-header'>
         <h1 className='gradient__text'>Accelerate the delivery of security transformation programs</h1>
-        <p>Get started</p>
+        <p className='btn-light'>Get started</p>
       </div>
       <div className='innovations-container'>
         {innovationsData.map((item, index) => (

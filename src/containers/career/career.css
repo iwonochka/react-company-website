@@ -22,15 +22,18 @@ box-shadow: 16px 16px 0px 2px var(--color-primary-lg);
   justify-content: flex-end;
   align-items: flex-start;
 }
-.career-content h4 {
+.career-content h4:first-child {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
-  line-height: 30px;
   color: var(--color-complimentary);
 }
 .career-content h4:last-child {
   color: var(--color-primary-lg);
+}
+
+#btn-blue {
+  border-color: var(--color-primary-lg);
 }
 .career-content h1 {
   font-family: var(--font-family);
@@ -56,7 +59,7 @@ box-shadow: 16px 16px 0px 2px var(--color-primary-lg);
   }
 
   .career-image {
-      margin: 1rem 0;
+      margin: 2rem 0;
   }
 
   .career-image img {
@@ -71,7 +74,7 @@ box-shadow: 16px 16px 0px 2px var(--color-primary-lg);
 
 @media screen and (max-width: 700px) {
   .career-image img {
-      width: 95%;
+      width: 80%;
       height: 100%;
   }
 }

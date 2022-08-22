@@ -10,7 +10,7 @@ const Company = () => {
       </div>
       <div className='company-header'>
         <h1 className='gradient__text'>Technology that brings us forward</h1>
-        <p>Read more</p>
+        <p className='btn-light'>Read more</p>
       </div>
       <div className='company-container'>
         <Feature title="Software" text="We provide cyber security services to protect Software as a Service (SaaS) solutions"/>

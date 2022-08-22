@@ -9,7 +9,7 @@ const CTA = () => {
         <h3>Learn more from our globally recognized cybersecurity experts</h3>
       </div>
       <div className='cta-btn'>
-        <button type='button' className='border-button'> Stay connected</button>
+        <button type='button' className='btn-border'> Stay connected</button>
       </div>
     </div>
   )

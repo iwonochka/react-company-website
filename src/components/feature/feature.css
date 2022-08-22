@@ -1,7 +1,7 @@
 .feature-container__feature {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   margin: 1rem;
 }
@@ -12,8 +12,8 @@
 }
 .feature-container__feature-title h1 {
   font-family: var(--font-family);
-  font-weight: 800;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 20px;
   line-height: 24px;
   letter-spacing: -0.04em;
   color: #fff;
@@ -32,8 +32,8 @@
 }
 .feature-container__feature-text p {
   font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 300;
+  font-size: 16px;
   line-height: 24px;
   color: var(--color-text);
 }

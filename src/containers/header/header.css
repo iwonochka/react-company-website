@@ -12,7 +12,7 @@
 .header-content h1 {
   font-family: var(--font-family);
   font-weight: 800;
-  font-size: 60px;
+  font-size: 56px;
   line-height: 75px;
 }
 
@@ -76,7 +76,7 @@
   align-items: center;
 }
 .header-image img {
-  width: 100%;
+  width: 110%;
   height: 100%;
 }
 

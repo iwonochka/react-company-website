@@ -11,7 +11,7 @@ const Blog = () => {
       </div>
       <div className='blog-container'>
         <div className='blog-container_groupA'>
-          <Article imgUrl={blog01} date="Sep 22, 2022" title="Half a million new pieces of malware daily" />
+          <Article imgUrl={blog01} date="Sep 22, 2022" title="Half a million new pieces of malware daily" text="It’s imperative that both individuals and companies make malware awareness, prevention, and security their number one priority. By doing this, they can protect themselves from malware. Recently, more and more news has surfaced about millions of consumers becoming affected by data breaches." />
         </div>
         <div className='blog-container_groupB'>
           <Article id='article-02' imgUrl={blog02} date="Sep 22, 2022" title="IT Security Act 2.0 - overview" />

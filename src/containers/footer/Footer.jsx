@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../assets/logo.png';
+import {FaYoutube, FaTwitter, FaFacebookSquare} from 'react-icons/fa'
 import './footer.css';
 
 const Footer = () => {
@@ -8,7 +9,7 @@ const Footer = () => {
       <div className='footer-header'>
         <h1 className='gradient__text'>Experience more</h1>
       </div>
-      <div className='footer-btn border-button'>
+      <div className='footer-btn btn-border'>
         <p>Subscribe</p>
       </div>
       <div className='footer-links'>
@@ -34,6 +35,11 @@ const Footer = () => {
           <p>+49 176 123456789</p>
           <p>securitysolutions@stingray.com</p>
           <p>Find us here:</p>
+          <div className='footer-links_icons'>
+            <p><FaYoutube/></p>
+            <p><FaTwitter/></p>
+            <p><FaFacebookSquare/></p>
+          </div>
         </div>
       </div>
       <div className='footer-copyright'>

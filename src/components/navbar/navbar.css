@@ -41,21 +41,6 @@
   cursor: pointer;
 }
 
-.border-button {
-  padding: 0.5rem 1rem;
-  color: var(--color-text);
-  background: var(--color-primary);
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 5px;
-  transition: all .14s ease-out;
-  cursor: pointer;
-  border: var(--color-text) solid;
-  outline: none;
-}
-
 .navbar-menu {
   margin-left: 1rem;
   position: relative;
@@ -75,12 +60,12 @@
   flex-direction: column;
   text-align: end;
   background: var(--color-primary);
-  padding: 2rem;
+  padding: 1rem;
   position: absolute;
   top: 40px;
   right: 0;
   margin-top: 1rem;
-  min-width: 210px;
+  min-width: 150px;
   border-radius: 5px;
   box-shadow: 0 0 5 rgba(0,0,0,0.2);
 }
