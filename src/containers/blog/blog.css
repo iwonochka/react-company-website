@@ -8,7 +8,7 @@
   margin-bottom: 5rem;
 }
 .blog-header h1 {
-  font-size: 62px;
+  font-size: 38px;
   line-height: 75px;
   font-family: var(--font-family);
   font-weight: 800;
@@ -62,11 +62,6 @@
 
   .blog-container_groupA .blog-container_article  {
      width: 100%;
-  }
-
-  .blog-header h1 {
-      font-size: 46px;
-      line-height: 52px;
   }
 }
 

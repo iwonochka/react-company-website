@@ -1,7 +1,8 @@
 import React from 'react'
 import { useState } from "react";
 import './navbar.css'
-import {RiMenu3Line, RiCloseLine} from 'react-icons/ri'
+import {RiCloseLine} from 'react-icons/ri'
+import {HiMenu} from 'react-icons/hi'
 import logo from '../../assets/logo.png'
 
 const Navbar = () => {
@@ -16,18 +17,18 @@ const Navbar = () => {
           <p><a href="#home">Home</a></p>
           <p><a href="#company">About</a></p>
           <p><a href="#innovations">Innovations</a></p>
-          <p><a href="#careers">Careers</a></p>
+          <p><a href="#career">Careers</a></p>
           <p><a href="#blog">Blog</a></p>
         </div>
       </div>
       <div className='navbar-sign'>
         <p>Sign in</p>
-        <button className='border-button' type='button'>Sign up</button>
+        <button className='btn-border' type='button'>Sign up</button>
       </div>
       <div className='navbar-menu'>
         {toggleMenu
-        ? <RiCloseLine  onClick={() => setToggleMenu(false)}/>
-        : <RiMenu3Line  onClick={() => setToggleMenu(true)}/>
+        ? <RiCloseLine fontSize={28}  onClick={() => setToggleMenu(false)}/>
+        : <HiMenu fontSize={28}  onClick={() => setToggleMenu(true)}/>
         }
         {toggleMenu && (
           <div className='navbar-menu_container scale-up-center'>
@@ -39,7 +40,7 @@ const Navbar = () => {
               <p><a href="#blog">Blog</a></p>
               <div className='navbar-menu_container-links-sign'>
                 <p>Sign in</p>
-                <button className='border-button' type='button'>Sign up</button>
+                <button className='btn-border' type='button'>Sign up</button>
               </div>
             </div>
           </div>

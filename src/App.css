@@ -12,6 +12,32 @@ a {
   text-decoration: none;
 }
 
+.btn-border {
+  padding: 0.5rem 1rem;
+  color: var(--color-text);
+  background: var(--color-primary);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 5px;
+  transition: all .14s ease-out;
+  cursor: pointer;
+  border: var(--color-text) solid;
+  outline: none;
+}
+
+.btn-light {
+  border: 1px solid var(--color-complimentary);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  cursor: pointer;
+}
+
+
 .gradient__bg {
   background:-moz-radial-gradient(circle at 3% 25%, rgba(50, 157, 156, 1) 0%, rgba(32, 80, 114, 1) 25%);
 
@@ -80,6 +106,11 @@ a {
   .section__margin {
     margin: 4rem;
   }
+
+  .btn-light {
+    font-size: 14px;
+    line-height: 28px;
+}
 }
 
 @media screen and (max-width: 550px) {
@@ -90,4 +121,6 @@ a {
   .section__margin {
     margin: 4rem 2rem;
   }
+
+
 }
