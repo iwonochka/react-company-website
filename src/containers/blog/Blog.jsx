@@ -2,12 +2,21 @@ import React from 'react'
 import Article from '../../components/article/Article';
 import {blog01, blog02, blog03, blog04, blog05} from './imports'
 import './blog.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Blog = () => {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div className='blog section__padding' id='blog'>
       <div className='blog-header'>
-        <h1 className='gradient__text' data-aos="fade-down" data-aos-duration="1500">Industry Insights</h1>
+        <h1 className='gradient__text' data-aos="fade-down" data-aos-duration="600" data-aos-delay="200" >Industry Insights</h1>
       </div>
       <div className='blog-container'>
         <div className='blog-container_groupA'>

@@ -34,7 +34,7 @@ const Innovations = () => {
     <div className='innovations section__padding' id="innovations">
       <div className='innovations-header'>
         <h1 className='gradient__text'>Accelerate the delivery of security transformation programs</h1>
-        <p data-aos="zoom-in" data-aos-delay="1500" className='btn-light'>Get started</p>
+        <p data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="600" className='btn-light'>Get started</p>
       </div>
       <div className='innovations-container fade-left'>
         {innovationsData.map((item, index) => (
