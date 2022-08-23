@@ -7,7 +7,7 @@ const Blog = () => {
   return (
     <div className='blog section__padding' id='blog'>
       <div className='blog-header'>
-        <h1 className='gradient__text'>Industry Insights</h1>
+        <h1 className='gradient__text' data-aos="fade-down" data-aos-duration="1500">Industry Insights</h1>
       </div>
       <div className='blog-container'>
         <div className='blog-container_groupA'>

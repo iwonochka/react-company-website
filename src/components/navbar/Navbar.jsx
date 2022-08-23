@@ -36,7 +36,7 @@ const Navbar = () => {
               <p><a href="#home">Home</a></p>
               <p><a href="#company">About</a></p>
               <p><a href="#innovations">Innovations</a></p>
-              <p><a href="#careers">Careers</a></p>
+              <p><a href="#career">Careers</a></p>
               <p><a href="#blog">Blog</a></p>
               <div className='navbar-menu_container-links-sign'>
                 <p>Sign in</p>
