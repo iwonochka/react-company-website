@@ -1,8 +1,17 @@
 import React from 'react'
 import { Feature } from '../../components'
 import './company.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Company = () => {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div className='company section__margin' id='company'>
       <div className='company-feature'>
@@ -10,7 +19,7 @@ const Company = () => {
       </div>
       <div className='company-header'>
         <h1 className='gradient__text'>Technology that brings us forward</h1>
-        <p className='btn-light'>Read more</p>
+        <p data-aos="zoom-in" data-aos-duration="600" className='btn-light'>Read more</p>
       </div>
       <div className='company-container'>
         <Feature title="Software" text="We provide cyber security services to protect Software as a Service (SaaS) solutions"/>

@@ -37,7 +37,6 @@ a {
   cursor: pointer;
 }
 
-
 .gradient__bg {
   background:-moz-radial-gradient(circle at 3% 25%, rgba(50, 157, 156, 1) 0%, rgba(32, 80, 114, 1) 25%);
 

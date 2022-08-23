@@ -38,6 +38,7 @@
   align-items: center;
   flex-direction: column;
 }
+
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 990px) {
