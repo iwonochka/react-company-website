@@ -25,7 +25,7 @@
 }
 
 .blog-container_groupA:hover {
-  box-shadow: 7px 7px 17px -3px #43cccb;
+  box-shadow: 3px 3px 12px -3px #43cccb;
   cursor: pointer;
   transition: 0.5s ease;
 }
@@ -43,7 +43,7 @@
 .blog-container_groupB > *:hover {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 7px 7px 17px -3px #43cccb;
+  box-shadow: 3px 3px 12px -3px #43cccb;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   -webkit-transition-property: transform;
