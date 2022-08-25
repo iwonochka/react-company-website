@@ -70,8 +70,6 @@
   border: solid 2px var(--color-text);
 }
 
-
-
 ::placeholder {
   color: var(--color-text);
   opacity: 0.8;

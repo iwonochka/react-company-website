@@ -19,7 +19,7 @@ const Company = () => {
       </div>
       <div className='company-header'>
         <h1 className='gradient__text'>Technology that brings us forward</h1>
-        <p data-aos="zoom-in" data-aos-duration="600" className='btn-light'>Read more</p>
+        <p data-aos="zoom-in" data-aos-duration="600" className='btn-light btn-neon'>Read more</p>
       </div>
       <div className='company-container'>
         <Feature title="Software" text="We provide cyber security services to protect Software as a Service (SaaS) solutions"/>
