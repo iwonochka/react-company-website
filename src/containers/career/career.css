@@ -11,8 +11,8 @@
 .career-image img {
 width: 60%;
 height: 100%;
--webkit-box-shadow: 16px 16px 1px 2px var(--color-primary-lg);
-box-shadow: 16px 16px 0px 2px var(--color-primary-lg);
+/* -webkit-box-shadow: 16px 1px 2px var(--color-primary-lg);
+box-shadow: 16px 0px 2px var(--color-primary-lg); */
 }
 
 .career-content {

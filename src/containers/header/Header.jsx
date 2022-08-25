@@ -11,7 +11,7 @@ const Header = () => {
   useEffect(() => {
     gsap.from(headerRef.current, {
       duration: 2,
-      x: 50,
+      y: 50,
       opacity: 0,
       ease: "sine.in sine.out",
       delay: 0.2

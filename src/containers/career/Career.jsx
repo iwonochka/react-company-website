@@ -1,6 +1,6 @@
 import React from 'react'
 import './career.css'
-import careerImage from "../../assets/image2.jpg";
+import careerImage from "../../assets/image2.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
