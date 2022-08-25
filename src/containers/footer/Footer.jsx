@@ -6,12 +6,6 @@ import './footer.css';
 const Footer = () => {
   return (
     <div className='footer section__padding'>
-      <div className='footer-header'>
-        <h1 className='gradient__text'>Experience more</h1>
-      </div>
-      <div className='footer-btn btn-border'>
-        <p>Subscribe</p>
-      </div>
       <div className='footer-links'>
         <div className='footer-links-logo'>
           <img src={logo} alt="logo" />

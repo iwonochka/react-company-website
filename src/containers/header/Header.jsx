@@ -11,7 +11,7 @@ const Header = () => {
   useEffect(() => {
     gsap.from(headerRef.current, {
       duration: 2,
-      x: 50,
+      y: 50,
       opacity: 0,
       ease: "sine.in sine.out",
       delay: 0.2
@@ -27,7 +27,7 @@ const Header = () => {
           that provide both reliable threat detection and rapid response times. </p>
         <div className='header-content__input'>
           <input type="email" placeholder='Your Email' />
-          <button type='button'>Discover more</button>
+          <button className='shake-left' type='button'>Discover more</button>
         </div>
       </div>
       <div className='header-image'>

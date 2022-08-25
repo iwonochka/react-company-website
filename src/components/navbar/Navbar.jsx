@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
       <div className='navbar-sign'>
         <p>Sign in</p>
-        <button className='btn-border' type='button'>Sign up</button>
+        <button className='btn-border btn-neon' type='button'>Sign up</button>
       </div>
       <div className='navbar-menu'>
         {toggleMenu
@@ -40,7 +40,7 @@ const Navbar = () => {
               <p><a href="#blog">Blog</a></p>
               <div className='navbar-menu_container-links-sign'>
                 <p>Sign in</p>
-                <button className='btn-border' type='button'>Sign up</button>
+                <button className='btn-border btn-neon' type='button'>Sign up</button>
               </div>
             </div>
           </div>
