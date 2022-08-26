@@ -24,11 +24,6 @@
   transition: 0.5s ease;
 }
 
-.blog-container_groupA:hover {
-  box-shadow: 3px 3px 12px -3px #43cccb;
-  cursor: pointer;
-  transition: 0.5s ease;
-}
 .blog-container_groupB {
   flex: 1;
   display: grid;
@@ -40,22 +35,30 @@
   transition: transform 1s ease;
 }
 
-.blog-container_groupB > *:hover {
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 3px 3px 12px -3px #43cccb;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transform: scale(1.1);
-  transition-timing-function: ease;
-  transform: scale(1.1);
-  cursor: pointer;
-}
-
 
 /*MEDIA QUERIES*/
+
+@media(hover: hover) and (pointer: fine) {
+  .blog-container_groupA:hover {
+    box-shadow: 3px 3px 12px -3px #43cccb;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+
+  .blog-container_groupB > *:hover {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 3px 3px 12px -3px #43cccb;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: scale(1.1);
+    transition-timing-function: ease;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
 
 @media screen and (max-width: 990px) {
   .blog-container {
@@ -93,6 +96,11 @@
 }
 
 @media screen and (max-width: 550px) {
+
+  .blog-header {
+    margin-bottom: 3rem;
+  }
+
   .blog-header h1 {
       font-size: 34px;
       line-height: 42px;
