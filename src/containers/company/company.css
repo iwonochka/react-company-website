@@ -3,7 +3,6 @@
 }
 
 .bg-element {
-  /* position:absolute; */
   position: absolute;
   width: 54%;
   height: 112%;
@@ -14,7 +13,6 @@
 .company {
 display: flex;
 flex-direction: column;
-
 padding: 3rem;
 background: var(--color-footer);
 
@@ -88,6 +86,11 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     .company-header p {
         margin-top: 1rem;
     }
+
+    .bg-element {
+      width: 60%;
+      height: 65%;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -102,6 +105,13 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   .company-header h1 {
       font-size: 28px;
       line-height: 40px;
+  }
+
+  .bg-element {
+    top: -42px;
+    left: 11px;
+    width: 19rem;
+    height: 19rem;
   }
 }
 
